@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <title>Product to be added</title>
+    <!-- <link rel="stylesheet" href="/style.css"> -->
+    <link rel="stylesheet" href="review.css">
+</head>
+<body>
+    <style>
+        body{
+            background-image:url("bg.jpg");
+            background-blend-mode: lighten;
+            background-repeat:no-repeat;
+            background-size:cover;
+        }
+        .tabs{
+			text-transform: uppercase;
+            background: #F68B1E;
+            border: 1px solid #F68B1E;
+            cursor: pointer;
+            color: #fff;
+            padding: 8px 40px;
+            margin: 10px;
+            width:50%;
+		}
+    </style>
+    <div class="con">
+        <h1 id="title">Product to be added</h1>
+        <form action="delivered.php" method="POST">
+        <div class="centerdiv">
+                <input type="text" name="id"  placeholder="id of the order" type="text" required class="field"><br><br>
+                    <center>
+                        <button type="submit" id="submit" class="tabs">Submit</button>
+                </center>
+        </div>
+    </form>
+    </div>
+    
+    
+</body>
+</html>
+

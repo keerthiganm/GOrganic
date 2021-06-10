@@ -1,0 +1,204 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+body{
+
+
+ background-image: url('back1.jpeg'); no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+
+
+
+margin:0;
+padding:0;
+font-family:sans-serif;
+backgroud: ;
+color:white;
+
+}
+
+h1{
+text-align:center;
+
+}
+
+
+.firstpage{
+text-align: center;
+
+background-color:#66C417;
+}
+
+
+.firstpage h1{
+
+color: #0E6655 ;
+  
+}
+
+
+::placeholder {
+  color: White;
+  
+}
+
+.box i{
+ position: absolute;
+
+width:240px;
+left: 763px;
+font-size:27px;
+height::1em;
+padding: 5px 10px;
+margin: 6px auto;
+         
+ color:white;
+
+
+
+}
+
+
+
+
+.box{
+
+
+
+
+
+
+width:700px;
+float:right;
+text-align:center;
+
+
+background-image: ;
+
+color:Black;
+}
+
+.box h1{
+line-height:1em;
+color:#34495E ;
+
+}
+
+.heading h1{
+
+
+color: #0E6655;
+
+background-color:#66C417;
+}
+
+
+
+
+
+
+
+.box h4{
+color:#EC7063   ;
+}
+
+
+.box input[type="text"],.box input[type="password"],.box input[type="email"]
+{
+border:0;
+background: #85929E;
+display: block;
+margin: 20px auto;
+text-align:center;
+border:2px solid #34495E;
+padding: 10px 10px;
+width:270px;
+outline:none;
+color:white;
+border-radius:24px;
+transition:0.25s;
+}
+
+
+
+.box input[type="text"]:focus,.box input[type="password"]:focus,.box input[type="email"]{
+width:280px;
+border-color:#34495E ;
+
+}
+
+
+
+.box input[type="submit"]{
+border:0;
+background:#34495E;
+display:block;
+margin:20px auto;
+text-align:center;
+border:2px solid #34495E;
+padding: 10px 40px;
+outline:none;
+color:white;
+border-radius:24px;
+transition:0.25s;
+cursor:pointer;
+}
+
+
+.box input[type= "submit"]:hover{
+background:#273746 ;
+}
+
+
+
+
+
+
+
+.box1 select
+{
+padding: 14px 10px;
+width:200px;
+background:#0563af;
+color:white;
+padding:10px;
+width:250px;
+height:50px;
+border:none;
+font-size:20px;
+box_shadow:0 5px 25px rgba(0,0,0,.5);
+-webkit-apperance:button;
+outline:none;
+
+}
+
+.box1:before
+{
+
+font-family:"Font Awesome 5 Free";
+position:absolute;
+
+padding: 14px 10px;
+width:200px;
+top:0;
+right:0;
+width:50px;
+height:50px;
+text_align:canter;
+line_height:50px;
+color:#fff;
+font_size:28px;
+background:#007ce0;
+pointer-events:none;
+}
+.box1:hover:before
+{
+background:#0472ca;
+}
+  

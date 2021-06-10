@@ -1,0 +1,36 @@
+body{
+
+
+ background-image: url('contact.jpeg'); no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+
+
+
+margin:0;
+padding:0;
+font-family:sans-serif;
+backgroud: ;
+
+
+}
+
+.contact {
+height:220px;
+padding: 100px;
+width:360px;
+float:right;
+text-align:left;
+}
+ .contact button{
+border:none;
+}
+.contact button:hover {
+background:black;
+}
